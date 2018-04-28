@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>cssDemo1</title>
+</head>
+<style>
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .title{
+        font-size: 50px;
+        text-align: center;
+        position:relative;
+    }
+    .button{
+        height: 50px;
+        width: 150px;
+        font-size: 30px;
+        line-height: 50px;
+        border: 2px solid #ccc;
+        border-radius: 7px;
+        text-align: center;
+        margin: 40px auto;
+    }
+    .button:focus + .title{
+        color: #4569E7;
+    }
+    .title:after{
+        content: ' ';
+        height: 5px;
+        width: 0px;
+        background-color: #4569E7;
+        position:absolute;
+        top: 75px;
+        left: 50%;
+    }
+    .button:focus + .title:after{
+        width: 220px;
+        left: calc(50% - 110px);
+    }
+    .title{
+        -webkit-transition: all 0.5s ease;
+           -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+             -o-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+    }
+    .title:after{
+        -webkit-transition: all 0.5s ease;
+           -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+             -o-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+    }
+
+</style>
+<body>
+    <div class="content">
+        <button class="button">切换样式</button>
+        <div class="title">前端学院</div>
+    </div>
+</body>
+</html>
