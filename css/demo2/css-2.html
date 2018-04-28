@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>css2</title>
+    <style>
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        div{
+            height: 60px;
+            width: 60px;
+            border: 2px solid #EAEAEA;
+            margin: 15px;
+            line-height: 60px;
+            text-align: center;
+            background-color: #F7F6F6;
+            font-size: 18px;
+            font-weight: bold;
+            box-sizing: border-box;
+        }
+        div:nth-child(1){
+
+        }
+        div:nth-child(2){
+            -webkit-transform: skew(30deg, 0deg);
+               -moz-transform: skew(30deg, 0deg);
+                -ms-transform: skew(30deg, 0deg);
+                 -o-transform: skew(30deg, 0deg);
+                    transform: skew(30deg, 0deg);
+        }
+        div:nth-child(3){
+            -webkit-transform: scaleX(0.5);
+               -moz-transform: scaleX(0.5);
+                -ms-transform: scaleX(0.5);
+                 -o-transform: scaleX(0.5);
+                    transform: scaleX(0.5);
+        }
+        div:nth-child(4){
+            -webkit-transform: rotate(45deg);
+               -moz-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                 -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+        }
+        div:nth-child(5){
+            -webkit-transform: translate(10px, 20px);
+               -moz-transform: translate(10px, 20px);
+                -ms-transform: translate(10px, 20px);
+                 -o-transform: translate(10px, 20px);
+                    transform: translate(10px, 20px);
+        }
+        div:nth-child(6){
+            -webkit-transform: skew(30deg, 0deg) scaleX(0.5) rotate(45deg) translate(10px, 20px);
+               -moz-transform: skew(30deg, 0deg) scaleX(0.5) rotate(45deg) translate(10px, 20px);
+                -ms-transform: skew(30deg, 0deg) scaleX(0.5) rotate(45deg) translate(10px, 20px);
+                 -o-transform: skew(30deg, 0deg) scaleX(0.5) rotate(45deg) translate(10px, 20px);
+                    transform: skew(30deg, 0deg) scaleX(0.5) rotate(45deg) translate(10px, 20px);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>box0</div>
+        <div>box1</div>
+        <div>box2</div>
+        <div>box3</div>
+        <div>box4</div>
+        <div>box5</div>
+    </section>
+</body>
+</html>
