@@ -10,12 +10,17 @@
             left: 50%;
             top: 200px;
             margin-left: -100px;
+            /*如果在这里没有设置perspective，那么page里面的各个平面虽然看起来是3d的，但是page不是3d的，所以旋转的时候还是以2d旋转*/
             -webkit-perspective: 300; /* Safari 和 Chrome */
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
         }
 
         .page {
             height: 200px;
             width: 200px;
+            /*使page里面的东西拥有3d属性但是在视觉上没有3d的视觉效果（近大远小的视觉效果）设置transform-style就好*/
+            /*在page中不需要设置perspective，不然和父组件的perspective会重合产生别样的效果，只要一份3d的效果就好*/
             -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
             position: absolute;
