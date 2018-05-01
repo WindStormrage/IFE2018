@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dome6</title>
+    <style>
+        html, body, .container {
+            height: 100%;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+        }
+
+        input[type="radio"] {
+            display: none;
+        }
+
+        label {
+            display: block;
+            width: 280px;
+            height: 170px;
+            background-color: #fff;
+            margin-bottom: 30px;
+            position: relative;
+            z-index: 10;
+        }
+
+        label:hover {
+            filter: brightness(0.8);
+            cursor: pointer;
+        }
+
+        .img-wrap {
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+        }
+
+        .img-wrap img {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+
+        label.img1 {
+            background-image: url('https://images.alphacoders.com/789/thumb-350-789452.jpg');
+        }
+
+        label.img2 {
+            background-image: url('https://images6.alphacoders.com/849/thumb-350-849322.jpg');
+        }
+
+        label.img3 {
+            background-image: url('https://images2.alphacoders.com/711/thumb-350-711450.jpg');
+        }
+
+        label.img4 {
+            background-image: url('https://images5.alphacoders.com/823/thumb-350-823713.png');
+        }
+
+        label.img5 {
+            background-image: url('https://images7.alphacoders.com/889/thumb-350-889122.png');
+        }
+
+        #img1:not(:checked) ~ .img-wrap img {
+            animation: oncheck 1s linear;
+        }
+
+        #img1:checked ~ .img-wrap img:nth-child(1) {
+            visibility: visible;
+            opacity: 1;
+            animation: img1 .5s ease-out;
+            z-index: 4;
+        }
+
+        #img2:checked ~ .img-wrap img:nth-child(2) {
+            visibility: visible;
+            opacity: 1;
+            animation: img2 .5s ease-out;
+            z-index: 4;
+        }
+
+        #img3:checked ~ .img-wrap img:nth-child(3) {
+            visibility: visible;
+            opacity: 1;
+            animation: img3 1s ease-in;
+            z-index: 4;
+        }
+
+        #img4:checked ~ .img-wrap img:nth-child(4) {
+            visibility: visible;
+            opacity: 1;
+            animation: img4 1s ease-in;
+            z-index: 4;
+        }
+
+        #img5:checked ~ .img-wrap img:nth-child(5) {
+            visibility: visible;
+            opacity: 1;
+            animation: img5 1s ease-in-out;
+            z-index: 4;
+        }
+
+        @keyframes oncheck {
+            0% {
+                opacity: 1;
+                z-index: 3;
+            }
+            100% {
+                opacity: 1;
+                z-index: 3;
+            }
+        }
+
+        @keyframes img1 {
+            0% {
+                left: -500px;
+            }
+            100% {
+                left: 0;
+            }
+        }
+
+        @keyframes img2 {
+            0% {
+                top: 350px;
+            }
+            100% {
+                top: 0;
+            }
+        }
+
+        @keyframes img3 {
+            0% {
+                transform: scale(0.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes img4 {
+            0% {
+                transform: scale(2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes img5 {
+            0% {
+                transform: scale(0.1) rotate(-360deg);
+            }
+            100% {
+                transform: scale(1) rotate(0);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <input type="radio" name="img" id="img1" checked>
+    <input type="radio" name="img" id="img2">
+    <input type="radio" name="img" id="img3">
+    <input type="radio" name="img" id="img4">
+    <input type="radio" name="img" id="img5">
+    <label for="img1" class="img1"></label>
+    <label for="img2" class="img2"></label>
+    <label for="img3" class="img3"></label>
+    <label for="img4" class="img4"></label>
+    <label for="img5" class="img5"></label>
+    <div class="img-wrap">
+        <img src="https://images.alphacoders.com/789/thumb-1920-789452.jpg" class="img1">
+        <img src="https://images6.alphacoders.com/849/thumb-350-849322.jpg" class="img2">
+        <img src="https://images2.alphacoders.com/711/thumb-1920-711450.jpg" class="img3">
+        <img src="https://images5.alphacoders.com/823/thumb-350-823713.png" class="img4">
+        <img src="https://images7.alphacoders.com/889/thumb-350-889122.png" class="img5">
+    </div>
+</div>
+</body>
+</html>
