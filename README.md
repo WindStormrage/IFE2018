@@ -15,3 +15,5 @@
 [demo4](http://htmlpreview.github.io/?https://github.com/WindStormrage/IFE2018/blob/master/css/demo4/css-4.html)
 #### No.5 - 纯 CSS 制作绕中轴旋转的立方体
 [demo5](http://htmlpreview.github.io/?https://github.com/WindStormrage/IFE2018/blob/master/css/demo5/css-5.html)
+#### No.6 - 利用 CSS animation 制作一个炫酷的 Slider
+[demo6](http://htmlpreview.github.io/?https://github.com/WindStormrage/IFE2018/blob/master/css/demo6/css-6.html)
