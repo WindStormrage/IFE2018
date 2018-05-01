@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cssdemo6</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .page {
+            height: 100%;
+            width: 100%;
+            background-color: yellow;
+        }
+
+        .slider {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            margin-left: -600px;
+            width: 1200px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .view {
+            width: 18%;
+            height: 150px;
+            background-color: red;
+        }
+
+        .view img {
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -5;
+        }
+        .view:nth-child(1) {
+            background-image: url("001.jpg");
+            background-size: 100% 100%;
+        }
+
+        .view:nth-child(2) {
+            background-image: url("002.jpg");
+            background-size: 100% 100%;
+        }
+
+        .view:nth-child(3) {
+            background-image: url("003.jpg");
+            background-size: 100% 100%;
+        }
+
+        .view:nth-child(4) {
+            background-image: url("004.jpg");
+            background-size: 100% 100%;
+        }
+
+        .view:nth-child(5) {
+            background-image: url("005.jpg");
+            background-size: 100% 100%;
+        }
+
+        .view:active:visited img{
+            z-index: -3;
+        }
+        .view:nth-child(1):visited img{
+            -webkit-animation: img1 .5s ease-out;
+            -o-animation: img1 .5s ease-out;
+            animation: img1 .5s ease-out;
+        }
+        .view:nth-child(2):hover img{
+            -webkit-animation: img2 .5s ease-out;
+            -o-animation: img2 .5s ease-out;
+            animation: img2 .5s ease-out;
+        }
+        .view:nth-child(3):hover img{
+            -webkit-animation: img3 1s ease-in;
+            -o-animation: img3 1s ease-in;
+            animation: img3 1s ease-in;
+        }
+        .view:nth-child(4):hover img{
+            -webkit-animation: img4 1s ease-out;
+            -o-animation: img4 1s ease-out;
+            animation: img4 1s ease-out;
+        }
+        .view:nth-child(5):hover img{
+            -webkit-animation: img5 .7s ease-in-out;
+            -o-animation: img5 .7s ease-in-out;
+            animation: img5 .7s ease-in-out;
+        }
+
+        @keyframes img1 {
+            from {
+                left: -500px;
+            }
+            to {
+                left: 0;
+            }
+        }
+
+        @keyframes img2 {
+            from {
+                top: 350px;
+            }
+            to {
+                top: 0;
+            }
+        }
+
+        @keyframes img3 {
+            from {
+                -webkit-transform: scale(0.1, 0.1);
+                -moz-transform: scale(0.1, 0.1);
+                -ms-transform: scale(0.1, 0.1);
+                -o-transform: scale(0.1, 0.1);
+                transform: scale(0.1, 0.1);
+            }
+            to {
+                -webkit-transform: scale(1, 1);
+                -moz-transform: scale(1, 1);
+                -ms-transform: scale(1, 1);
+                -o-transform: scale(1, 1);
+                transform: scale(1, 1);
+            }
+        }
+
+        @keyframes img4 {
+            from {
+                -webkit-transform: scale(2, 2);
+                -moz-transform: scale(2, 2);
+                -ms-transform: scale(2, 2);
+                -o-transform: scale(2, 2);
+                transform: scale(2, 2);
+            }
+            to {
+                -webkit-transform: scale(1, 1);
+                -moz-transform: scale(1, 1);
+                -ms-transform: scale(1, 1);
+                -o-transform: scale(1, 1);
+                transform: scale(1, 1);
+            }
+        }
+
+        @keyframes img5 {
+            from {
+                -webkit-transform: scale(0.1, 0.1) rotate(-360deg);
+                -moz-transform: scale(0.1, 0.1) rotate(-360deg);
+                -ms-transform: scale(0.1, 0.1) rotate(-360deg);
+                -o-transform: scale(0.1, 0.1) rotate(-360deg);
+                transform: scale(0.1, 0.1) rotate(-360deg);
+            }
+            to {
+                -webkit-transform: scale(1, 1) rotate(0deg);
+                -moz-transform: scale(1, 1) rotate(0deg);
+                -ms-transform: scale(1, 1) rotate(0deg);
+                -o-transform: scale(1, 1) rotate(0deg);
+                transform: scale(1, 1) rotate(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <div class="slider">
+        <div class="view">
+            <img src="001.jpg">
+        </div>
+        <div class="view">
+            <img src="002.jpg"></div>
+        <div class="view">
+            <img src="003.jpg"></div>
+        <div class="view">
+            <img src="004.jpg"></div>
+        <div class="view">
+            <img src="005.jpg"></div>
+    </div>
+</div>
+</body>
+</html>

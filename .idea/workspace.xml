@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3699c97d-8840-43ca-b7bc-67494f569757" name="Default" comment="">
+    <list default="true" id="3699c97d-8840-43ca-b7bc-67494f569757" name="Default" comment="css 5做了兼容性">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo6/001.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo6/002.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo6/003.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo6/004.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo6/005.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo6/css-6.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/demo5/css-5.html" afterPath="$PROJECT_DIR$/css/demo5/css-5.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="css-5.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="css-5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/demo5/css-5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="35" column="56" lean-forward="false" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+            <state relative-caret-position="240">
+              <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css-6.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/demo6/css-6.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -29,9 +44,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>-webkit-perspective</find>
+      <find>1</find>
+      <find>position</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -43,6 +67,7 @@
         <option value="$PROJECT_DIR$/../CSS3动画/3d.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/demo5/css-5.html" />
+        <option value="$PROJECT_DIR$/css/demo6/css-6.html" />
       </list>
     </option>
   </component>
@@ -60,10 +85,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1453" />
-    <option name="y" value="114" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1418" />
+    <option name="y" value="52" />
+    <option name="width" value="1582" />
+    <option name="height" value="702" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -80,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,12 +124,17 @@
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="demo5" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="百度前端技术学院" type="b2602c69:ProjectViewProjectNode" />
+              <item name="百度前端技术学院" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="demo6" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -114,6 +145,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\乱七八糟的学习\百度前端技术学院\css\demo6" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1525087858041</updated>
       <workItem from="1525087859445" duration="5679000" />
-      <workItem from="1525150700293" duration="1245000" />
+      <workItem from="1525150700293" duration="6744000" />
     </task>
     <task id="LOCAL-00001" summary="css 5">
       <created>1525092036650</created>
@@ -168,19 +205,26 @@
       <option name="project" value="LOCAL" />
       <updated>1525094300569</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="css 5做了兼容性">
+      <created>1525152451458</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525152451458</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6924000" />
+    <option name="totallyTimeSpent" value="12423000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09589041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861805" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
@@ -231,7 +275,8 @@
     <MESSAGE value="css 5" />
     <MESSAGE value="css 5注释" />
     <MESSAGE value="css 5添加hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="css 5添加hover" />
+    <MESSAGE value="css 5做了兼容性" />
+    <option name="LAST_COMMIT_MESSAGE" value="css 5做了兼容性" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -265,8 +310,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/demo5/css-5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="35" column="56" lean-forward="false" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        <state relative-caret-position="240">
+          <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/demo6/css-6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
         </state>
       </provider>
