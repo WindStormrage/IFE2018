@@ -17,3 +17,5 @@
 [demo5](http://htmlpreview.github.io/?https://github.com/WindStormrage/IFE2018/blob/master/css/demo5/css-5.html)
 #### No.6 - 利用 CSS animation 制作一个炫酷的 Slider
 [demo6](http://htmlpreview.github.io/?https://github.com/WindStormrage/IFE2018/blob/master/css/demo6/css-6.html)
+#### No.7 - 使用 animate.css 实现一个优雅的登录框
+[demo6](http://htmlpreview.github.io/?https://github.com/WindStormrage/IFE2018/blob/master/css/demo7/css-7.html)

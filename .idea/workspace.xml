@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3699c97d-8840-43ca-b7bc-67494f569757" name="Default" comment="">
+    <list default="true" id="3699c97d-8840-43ca-b7bc-67494f569757" name="Default" comment="css7 完成，但是把input里面删了文字不会下来">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo7/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo7/css-7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/demo6/mark.md" afterPath="$PROJECT_DIR$/css/demo6/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,52 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="css-6.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/demo6/css-6.html">
+      <file leaf-file-name="css-7.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/demo7/css-7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="108" selection-end-column="9" />
-              <folding>
-                <element signature="e#1145#1242#0" expanded="false" />
-                <element signature="e#1263#1360#0" expanded="false" />
-                <element signature="e#1381#1478#0" expanded="false" />
-                <element signature="e#1499#1596#0" expanded="false" />
-                <element signature="e#1617#1714#0" expanded="false" />
-                <element signature="e#1754#1800#0" expanded="false" />
-                <element signature="e#1868#1921#0" expanded="false" />
-                <element signature="e#1930#2136#0" expanded="false" />
-                <element signature="e#2502#2746#0" expanded="false" />
-                <element signature="e#2809#3026#0" expanded="false" />
-                <element signature="e#3089#3309#0" expanded="false" />
-                <element signature="e#3372#3604#0" expanded="false" />
-                <element signature="e#3629#3775#0" expanded="false" />
-                <element signature="e#3785#3928#0" expanded="false" />
-                <element signature="e#3938#4489#0" expanded="false" />
-                <element signature="e#4499#5030#0" expanded="false" />
-                <element signature="e#5040#5736#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="460">
-                <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-                <folding />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="534">
+              <caret line="227" column="30" lean-forward="false" selection-start-line="227" selection-start-column="30" selection-end-line="227" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/demo6/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+            <state relative-caret-position="400">
+              <caret line="20" column="100" lean-forward="false" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -83,6 +55,13 @@
       <find>1</find>
       <find>position</find>
       <find>z-index</find>
+      <find>form__label-content</find>
+      <find>bottom</find>
+      <find>filled</find>
+      <find>line</find>
+      <find>email__title</find>
+      <find>form__input__submit</find>
+      <find>pulse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,11 +71,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../CSS3动画/3d.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/demo5/css-5.html" />
         <option value="$PROJECT_DIR$/css/demo6/css-6.html" />
         <option value="$PROJECT_DIR$/css/demo6/demo.html" />
         <option value="$PROJECT_DIR$/css/demo6/mark.md" />
+        <option value="$PROJECT_DIR$/css/demo7/css-7.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -151,13 +131,7 @@
               <item name="百度前端技术学院" type="b2602c69:ProjectViewProjectNode" />
               <item name="百度前端技术学院" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="demo5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="百度前端技术学院" type="b2602c69:ProjectViewProjectNode" />
-              <item name="百度前端技术学院" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="demo6" type="462c0819:PsiDirectoryNode" />
+              <item name="demo7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,6 +151,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\乱七八糟的学习\百度前端技术学院\css\demo7" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\乱七八糟的学习\百度前端技术学院\css\demo6" />
     </key>
@@ -204,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1525087858041</updated>
       <workItem from="1525087859445" duration="5679000" />
-      <workItem from="1525150700293" duration="17122000" />
+      <workItem from="1525150700293" duration="24134000" />
     </task>
     <task id="LOCAL-00001" summary="css 5">
       <created>1525092036650</created>
@@ -269,11 +246,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525171074268</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="css6  根据大佬的该成功了">
+      <created>1525171155848</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1525171155848</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22801000" />
+    <option name="totallyTimeSpent" value="29813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
@@ -287,7 +271,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18039624" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -382,6 +366,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/demo6/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/demo6/css-6.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -408,8 +400,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/下载.html 文件.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9111">
+          <caret line="2928" column="0" lean-forward="false" selection-start-line="2928" selection-start-column="0" selection-end-line="2928" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/demo7/css-7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="227" column="30" lean-forward="false" selection-start-line="227" selection-start-column="30" selection-end-line="227" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="460">
             <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
@@ -418,11 +434,9 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/demo6/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+        <state relative-caret-position="400">
+          <caret line="20" column="100" lean-forward="false" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
           <folding />
         </state>
       </provider>
