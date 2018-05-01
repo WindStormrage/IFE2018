@@ -98,18 +98,25 @@
 
         .form__label__content {
             position: absolute;
-            bottom: 0;
-        }
-
-        /*设置获得焦点后输入框上面的文字的动画*/
-        .form__input:focus ~ .form__label .form__label__content {
-            font-size: 1.4rem;
-            bottom: 2.5rem;
+            transform: translateY(0px);
+            font-size: 1.8rem;
             -webkit-transition: all .3s ease-out;
             -moz-transition: all .3s ease-out;
             -ms-transition: all .3s ease-out;
             -o-transition: all .3s ease-out;
             transition: all .3s ease-out;
+        }
+
+        /*固定在上面*/
+        .up {
+            transform: translateY(-10px);
+            font-size: 1.4rem;
+        }
+
+        /*设置获得焦点后输入框上面的文字的动画*/
+        .form__input:focus ~ .form__label .form__label__content {
+            font-size: 1.4rem;
+            transform: translateY(-10px);
         }
 
         /*设置输入框下面的直线的动态*/
@@ -191,31 +198,27 @@
 <script>
 	$("#email").blur(() => {
 		if ($("#email").val() !== '') {
-			$("#email__title").css("font-size", "1.4rem");
-			$("#email__title").css("bottom", "2.5rem");
+			$("#email__title").addClass("up");
 			if ($("#password").val() !== '') {
 				$("#btn").addClass("pulse");
 			} else {
 				$("#btn").removeClass("pulse");
 			}
 		} else {
-			//$("#email__title").css("font-size", "1.6rem");
-			//$("#email__title").css("bottom", "0rem");
+			$("#email__title").removeClass("up");
 			$("#btn").removeClass("pulse");
 		}
 	})
 	$("#password").blur(() => {
 		if ($("#password").val() !== '') {
-			$("#password__title").css("font-size", "1.4rem");
-			$("#password__title").css("bottom", "2.5rem");
-			if ($("#email").val() !== '') {
+			$("#password__title").addClass("up");
+			if ($("#password").val() !== '') {
 				$("#btn").addClass("pulse");
 			} else {
 				$("#btn").removeClass("pulse");
 			}
 		} else {
-			//$("#password__title").css("font-size", "1.6rem");
-			//$("#password__title").css("bottom", "0rem");
+			$("#password__title").removeClass("up");
 			$("#btn").removeClass("pulse");
 		}
 	})
