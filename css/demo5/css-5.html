@@ -11,9 +11,10 @@
             top: 200px;
             margin-left: -100px;
             /*如果在这里没有设置perspective，那么page里面的各个平面虽然看起来是3d的，但是page不是3d的，所以旋转的时候还是以2d旋转*/
+            perspective: 300; /* Safari 和 Chrome */
             -webkit-perspective: 300; /* Safari 和 Chrome */
-            -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
+            -webkit-transform-style: preserve-3d;
         }
 
         .page {
@@ -21,15 +22,18 @@
             width: 200px;
             /*使page里面的东西拥有3d属性但是在视觉上没有3d的视觉效果（近大远小的视觉效果）设置transform-style就好*/
             /*在page中不需要设置perspective，不然和父组件的perspective会重合产生别样的效果，只要一份3d的效果就好*/
-            -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
+            -webkit-transform-style: preserve-3d;
             position: absolute;
 
-            animation-iteration-count: infinite;
         }
 
-        .container:hover .page{
+        .container:hover .page {
+            -webkit-animation: cube 5s linear;
+            -o-animation: cube 5s linear;
             animation: cube 5s linear;
+            animation-iteration-count: infinite;
+            -webkit-animation-iteration-count: infinite;
         }
 
         .view {
@@ -39,34 +43,87 @@
             background-color: blue;
             opacity: 0.4;
             position: absolute;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
             box-sizing: border-box;
         }
 
         .view1 {
+            -webkit-transform: translateZ(100px);
+            -moz-transform: translateZ(100px);
+            -ms-transform: translateZ(100px);
+            -o-transform: translateZ(100px);
             transform: translateZ(100px);
         }
 
         .view2 {
+            -webkit-transform: translate3d(0, 0, -100px);
+            -moz-transform: translate3d(0, 0, -100px);
+            -ms-transform: translate3d(0, 0, -100px);
+            -o-transform: translate3d(0, 0, -100px);
             transform: translate3d(0, 0, -100px);
         }
 
         .view3 {
+            -webkit-transform: rotateY(90deg) translate3d(0, 0, -100px);
+            -moz-transform: rotateY(90deg) translate3d(0, 0, -100px);
+            -ms-transform: rotateY(90deg) translate3d(0, 0, -100px);
+            -o-transform: rotateY(90deg) translate3d(0, 0, -100px);
             transform: rotateY(90deg) translate3d(0, 0, -100px);
         }
 
         .view4 {
+            -webkit-transform: rotateY(90deg) translate3d(0, 0, 100px);
+            -moz-transform: rotateY(90deg) translate3d(0, 0, 100px);
+            -ms-transform: rotateY(90deg) translate3d(0, 0, 100px);
+            -o-transform: rotateY(90deg) translate3d(0, 0, 100px);
             transform: rotateY(90deg) translate3d(0, 0, 100px);
         }
 
         .view5 {
+            -webkit-transform: rotateX(90deg) translate3d(0, 0, -100px);
+            -moz-transform: rotateX(90deg) translate3d(0, 0, -100px);
+            -ms-transform: rotateX(90deg) translate3d(0, 0, -100px);
+            -o-transform: rotateX(90deg) translate3d(0, 0, -100px);
             transform: rotateX(90deg) translate3d(0, 0, -100px);
         }
 
         .view6 {
+            -webkit-transform: rotateX(90deg) translate3d(0, 0, 100px);
+            -moz-transform: rotateX(90deg) translate3d(0, 0, 100px);
+            -ms-transform: rotateX(90deg) translate3d(0, 0, 100px);
+            -o-transform: rotateX(90deg) translate3d(0, 0, 100px);
             transform: rotateX(90deg) translate3d(0, 0, 100px);
         }
 
-        @Keyframes cube {
+        @keyframes cube {
+            0% {
+                transform: rotateY(0deg);
+            }
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+
+        @-moz-keyframes cube {
+            0% {
+                transform: rotateY(0deg);
+            }
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+
+        @-webkit-keyframes cube {
+            0% {
+                transform: rotateY(0deg);
+            }
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+
+        @-o-keyframes cube {
             0% {
                 transform: rotateY(0deg);
             }
