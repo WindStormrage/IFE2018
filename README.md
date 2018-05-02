@@ -19,3 +19,5 @@
 [demo6](http://htmlpreview.github.io/?https://github.com/WindStormrage/IFE2018/blob/master/css/demo6/css-6.html)
 #### No.7 - 使用 animate.css 实现一个优雅的登录框
 [demo6](http://htmlpreview.github.io/?https://github.com/WindStormrage/IFE2018/blob/master/css/demo7/css-7.html)
+#### No.8 - 把 AE 动画转换成 Web 原生动画
+[demo6](http://htmlpreview.github.io/?https://github.com/WindStormrage/IFE2018/blob/master/css/demo8/index.html)

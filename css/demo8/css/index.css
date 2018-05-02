@@ -1,0 +1,28 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.text{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#bm {
+    width: 50%;
+    height: 60%;
+}
+
+#man {
+    width: 50%;
+    height: 60%;
+}
