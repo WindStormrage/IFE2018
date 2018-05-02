@@ -10,6 +10,9 @@ html, body {
     text-align: center;
     font-size: 50px;
     margin: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .container {
     height: 100%;
@@ -23,6 +26,20 @@ html, body {
 }
 
 #man {
-    width: 50%;
+    width: 30%;
     height: 60%;
+    background-color: tomato;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+#man:hover{
+    -webkit-transform: translate(10px, 10px);
+    -moz-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+    transform: translate(10px, 10px);
+    box-shadow: -5px -5px 10px #ddd;
 }

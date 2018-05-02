@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3699c97d-8840-43ca-b7bc-67494f569757" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo8/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo8/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo8/js/bodymovin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo8/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo8/js/lottie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo8/json/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo8/json/data32.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/demo6/css-6.html" afterPath="$PROJECT_DIR$/css/demo6/css-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/demo8/css/index.css" afterPath="$PROJECT_DIR$/css/demo8/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/demo8/js/index.js" afterPath="$PROJECT_DIR$/css/demo8/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,28 +22,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/demo8/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="320">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/demo8/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/demo8/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="260">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -97,6 +90,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/demo8/index.html" />
         <option value="$PROJECT_DIR$/css/demo8/css/index.css" />
+        <option value="$PROJECT_DIR$/css/demo8/js/index.js" />
       </list>
     </option>
   </component>
@@ -211,7 +205,7 @@
       <workItem from="1525150700293" duration="26137000" />
       <workItem from="1525228175822" duration="30000" />
       <workItem from="1525228251407" duration="2626000" />
-      <workItem from="1525251085696" duration="601000" />
+      <workItem from="1525251085696" duration="2171000" />
     </task>
     <task id="LOCAL-00001" summary="css 5">
       <created>1525092036650</created>
@@ -297,11 +291,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525180502711</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="css8">
+      <created>1525251723366</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1525251723366</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35073000" />
+    <option name="totallyTimeSpent" value="36643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -365,7 +366,8 @@
     <MESSAGE value="css6  根据大佬的该成功了" />
     <MESSAGE value="css7 完成，但是把input里面删了文字不会下来" />
     <MESSAGE value="css7 &#10;1.动画尽量用transform不会改变其他的&#10;2.transition一般放在一直都在的class里面&#10;3.用js改css的时候一般添加或者删去class不要直接改css" />
-    <option name="LAST_COMMIT_MESSAGE" value="css7 &#10;1.动画尽量用transform不会改变其他的&#10;2.transition一般放在一直都在的class里面&#10;3.用js改css的时候一般添加或者删去class不要直接改css" />
+    <MESSAGE value="css8" />
+    <option name="LAST_COMMIT_MESSAGE" value="css8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -499,7 +501,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="475">
             <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
@@ -508,24 +510,16 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/demo8/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="269">
+          <caret line="22" column="111" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="111" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/demo7/css-7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="981">
+        <state relative-caret-position="2700">
           <caret line="214" column="46" lean-forward="false" selection-start-line="214" selection-start-column="46" selection-end-line="214" selection-end-column="46" />
           <folding />
         </state>
@@ -533,16 +527,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/demo8/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="320">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/demo8/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="260">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/demo8/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding />
         </state>
       </provider>
