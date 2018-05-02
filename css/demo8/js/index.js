@@ -14,11 +14,11 @@ var animation2 = bodymovin.loadAnimation({
 })
 
 
-document.getElementById("man").addEventListener("mouseover",function (e) {
-	console.log(e);
+document.getElementById("man").addEventListener("mouseenter",function (e) {
+	console.log(11111);
 	animation2.play()
-})
-document.getElementById("man").addEventListener("mouseout",function (e) {
-	console.log(e);
+},false)
+document.getElementById("man").addEventListener("mouseleave",function (e) {
+	console.log(22222);
 	animation2.stop()
-})
+},false)

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3699c97d-8840-43ca-b7bc-67494f569757" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/demo8/css/index.css" afterPath="$PROJECT_DIR$/css/demo8/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/demo8/js/index.js" afterPath="$PROJECT_DIR$/css/demo8/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/demo8/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="80">
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -32,8 +30,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/demo8/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="460">
+              <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -205,7 +203,7 @@
       <workItem from="1525150700293" duration="26137000" />
       <workItem from="1525228175822" duration="30000" />
       <workItem from="1525228251407" duration="2626000" />
-      <workItem from="1525251085696" duration="2171000" />
+      <workItem from="1525251085696" duration="3010000" />
     </task>
     <task id="LOCAL-00001" summary="css 5">
       <created>1525092036650</created>
@@ -298,11 +296,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525251723366</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="css8  鼠标触发版本">
+      <created>1525253282650</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1525253282650</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36643000" />
+    <option name="totallyTimeSpent" value="37482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -367,7 +372,8 @@
     <MESSAGE value="css7 完成，但是把input里面删了文字不会下来" />
     <MESSAGE value="css7 &#10;1.动画尽量用transform不会改变其他的&#10;2.transition一般放在一直都在的class里面&#10;3.用js改css的时候一般添加或者删去class不要直接改css" />
     <MESSAGE value="css8" />
-    <option name="LAST_COMMIT_MESSAGE" value="css8" />
+    <MESSAGE value="css8  鼠标触发版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="css8  鼠标触发版本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -525,14 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/demo8/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/demo8/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -541,10 +539,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/demo8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/demo8/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="460">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding />
         </state>
       </provider>
