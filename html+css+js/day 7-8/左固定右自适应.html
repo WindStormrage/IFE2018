@@ -1,0 +1,198 @@
+<!-- 双inline-block方案 -->
+<!-- <style>
+.container{
+    padding: 15px 20px;
+    border: 1px dashed #ff6c60;
+    box-sizing: content-box;
+    font-size: 0;
+}
+.box{
+    border: 5px solid #ddd;
+    display: inline-block;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.left{
+    width: 120px;
+}
+.right{
+    margin-left: 20px;
+    width: calc(100% - 140px);
+}
+</style> -->
+<!-- 双float方案 -->
+<!-- <style>
+.container{
+    padding: 15px 20px;
+    border: 1px dashed #ff6c60;
+    box-sizing: content-box;
+    overflow: auto;
+}
+.box{
+    border: 5px solid #ddd;
+    float: left;
+    box-sizing: border-box;
+}
+.left{
+    width: 120px;
+}
+.right{
+    margin-left: 20px;
+    width: calc(100% - 140px);
+}
+</style> -->
+<!-- float+margin-left方案 -->
+<!-- <style>
+.container{
+    padding: 15px 20px;
+    border: 1px dashed #ff6c60;
+}
+.box{
+    border: 5px solid #ddd;
+}
+.left{
+    width: 120px;
+}
+.right{
+    margin-left: 20px;
+}
+
+.container{
+    overflow: hidden;
+}
+.box{
+}
+.left{
+    float: left;
+}
+.right{
+    margin-left: 140px;
+}
+</style> -->
+
+<!-- 使用absolute+margin-left方法 -->
+<!-- <style>
+.container{
+    padding: 15px 20px;
+    border: 1px dashed #ff6c60;
+}
+.box{
+    border: 5px solid #ddd;
+}
+.left{
+    width: 120px;
+}
+.right{
+    margin-left: 20px;
+}
+
+.container{
+}
+.box{
+}
+.left{
+    position: absolute;
+}
+.right{
+    margin-left: 140px;
+}
+</style> -->
+<!-- 使用float+BFC方法 :右侧盒子通过overflow: auto;形成了BFC，因此右侧盒子不会与浮动的元素重叠。-->
+<!-- <style>
+.container{
+    padding: 15px 20px;
+    border: 1px dashed #ff6c60;
+}
+.box{
+    border: 5px solid #ddd;
+}
+.left{
+    width: 120px;
+}
+.right{
+    margin-left: 20px;
+}
+
+.container{
+    overflow: hidden;
+}
+.box{
+}
+.left{
+    float: left;
+    margin-right: 20px;
+}
+.right{
+    margin-left: 0;
+    overflow: auto;
+}
+</style> -->
+<!-- flex方案 -->
+<!-- <style>
+.container{
+    padding: 15px 20px;
+    border: 1px dashed #ff6c60;
+}
+.box{
+    border: 5px solid #ddd;
+}
+.left{
+    width: 120px;
+}
+.right{
+    margin-left: 20px;
+}
+
+.container{
+    display: flex;
+}
+.box{
+}
+.left{
+}
+.right{
+    flex: 1;
+}
+</style> -->
+<!-- grid方案 -->
+<!-- <style>
+.container{
+    padding: 15px 20px;
+    border: 1px dashed #ff6c60;
+}
+.box{
+    border: 5px solid #ddd;
+}
+.left{
+    width: 120px;
+}
+.right{
+    margin-left: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: start;
+}
+.box{
+    box-sizing: border-box;
+}
+.left{
+    grid-column: 1;
+}
+.right{
+    grid-column: 2;
+}
+</style> -->
+
+
+
+<div class="container">
+    <div class="left box">
+        left
+    </div>
+    <div class="right box">
+        right
+    </div>
+</div>
