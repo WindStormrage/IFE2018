@@ -21,3 +21,7 @@
 [demo6](http://htmlpreview.github.io/?https://github.com/WindStormrage/IFE2018/blob/master/css/demo7/css-7.html)
 #### No.8 - 把 AE 动画转换成 Web 原生动画
 [demo6](http://htmlpreview.github.io/?https://github.com/WindStormrage/IFE2018/blob/master/css/demo8/index.html)
+
+### 基础学院
+#### 第七天到第八天：学习布局
+[day7-day8](http://htmlpreview.github.io/?https://github.com/WindStormrage/IFE2018/blob/master/html%2Bcss%2Bjs/day%207-8/index.html)
