@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>day7-8</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style-type: none;
+        }
+        .nav{
+            width: 100%;
+            height: 60px;
+            background-color: #666;
+            text-align: center;
+        }
+        .nav .logo{
+            float: left;
+            line-height: 60px;
+            color: #fff;
+        }
+        .nav .header-nav{
+            float: right;
+        }
+        .nav .header-nav li{
+            display: inline-block;
+            margin: 0 10px;
+            line-height: 60px;
+        }
+        .nav .header-nav li a{
+            color: #fff;
+            text-decoration: none;
+        }
+        .container{
+            width: 960px;
+            margin: 0 auto;
+        }
+        /* banner区域 */
+        .banner{
+            width: 100%;
+            height: 400px;
+            background-color: #adfa;
+            position: relative;
+        }
+        .banner .banner-nav{
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+        }
+        .banner .banner-nav li{
+            display: inline-block;
+            height: 30px;
+            width: 20px;
+            line-height: 30px;
+            text-align: center;
+            border: 1px solid #000;
+            background: rgba(255, 255, 255, 0.5);
+        }
+        .banner .banner-nav li:hover{
+            padding-top: 15px;
+        }
+        /* 内容区域 */
+        .container-nav{
+            margin-top: 20px;
+        }
+        .container-nav li{
+            display: inline-block;
+            height: 40px;
+            width: 80px;
+            line-height: 40px;
+            text-align: center;
+            border: 1px solid #666;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            background-color: #eee;
+        }
+        .container-nav li:hover{
+            background-color: #fff;
+            border-bottom-color: #fff;
+        }
+        .hr{
+            position: relative;
+            top: 63px;
+            z-index: -1;
+        }
+        .container-div{
+            margin-top: 30px;
+        }
+        .container-div .ul{
+            display: flex;
+        }
+        .container-div .ul .box{
+            flex: 1;
+            height: 150px;
+            border: 1px solid #ddd;
+            margin: 5px;
+            text-align: center;
+            line-height: 150px;
+        }
+        /* 底部 */
+        footer{
+            height: 80px;
+            width: 100%;
+            background: #666;
+            color: #fff;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                logo
+            </div>
+            <ul class="header-nav">
+                <li><a href="#">Github</a></li><!--
+             --><li><a href="#">Register</a></li><!--
+             --><li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="banner">
+        <div class="container">
+            <ul class="banner-nav">
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <hr class="hr">
+        <div class="container">
+            <ul class="container-nav">
+                <li>HOME</li><!--
+             --><li>PROFILE</li><!--
+             --><li>ABUOT</li>
+            </ul>
+            <div class="container-div">
+                <div class="ul">
+                    <div class="box">Content1</div>
+                    <div class="box">Content2</div>
+                    <div class="box">Content3</div>
+                </div>
+                <div class="ul">
+                    <div class="box">Content4</div>
+                    <div class="box">Content5</div>
+                    <div class="box">Content6</div>
+                    <div class="box">Content7</div>
+                </div>
+                <div class="ul">
+                    <div class="box">Content8</div>
+                    <div class="box">Content9</div>
+                    <div class="box">Content10</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            &copy 2018 ife.baidu.com
+        </div>
+    </footer>
+</body>
+</html>
+
+
+<!--
+    banner的选项卡
+    content先·选项卡的线条
+    content中box的边距
+ -->
